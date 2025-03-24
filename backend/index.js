@@ -15,7 +15,7 @@ app.use(cors());
 
 mongoose.connect(
   "mongodb+srv://jeevithac1999:ifzsndbR6iBHMvWR@cluster0.pifgq.mongodb.net/khushitha"
-);
+); 
 
 // API Creation
 app.get("/",(req,res)=>{
