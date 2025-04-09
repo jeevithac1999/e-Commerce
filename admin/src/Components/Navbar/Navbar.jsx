@@ -3,7 +3,7 @@ import './Navbar.css'
 import navlogo from '../../assets/nav-logo.svg'
 import navProfile from '../../assets/nav-profile.svg'
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <div className='navbar'>
         <img src={navlogo} alt="" className="nav-logo" />
@@ -11,3 +11,5 @@ export const Navbar = () => {
     </div>
   )
 }
+
+export default Navbar;
